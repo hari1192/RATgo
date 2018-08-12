@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TGO Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.ot.tgo.extentreport.ExtentReportListener"/>
+  </listeners>
+  <test name="TGO Test Cases(failed)">
+    <classes>
+      <class name="com.ot.tgo.testcases.SubscriptionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createCompanyTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="subscribeServiceTest"/>
+        </methods>
+      </class> <!-- com.ot.tgo.testcases.SubscriptionTest -->
+    </classes>
+  </test> <!-- TGO Test Cases(failed) -->
+</suite> <!-- Failed suite [TGO Test Automation Test Suite] -->
